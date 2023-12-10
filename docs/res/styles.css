@@ -1,0 +1,103 @@
+/* Tags */
+body{
+    /* font-family: 'Fraunces', serif; */
+    font-family: 'Montserrat', sans-serif;
+    background-color: hsl(30, 38%, 92%);
+    color: hsl(228, 12%, 48%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    background-color: #fff;
+    width: 40%;
+    height: 55%;
+    display: flex;
+    border-radius: 15px;
+}
+section{
+    width: 40%;
+    height: 100%;
+    padding-left: 20px;
+}
+h5{
+    font-weight: 500;
+}
+h1{
+    font-family: 'Fraunces', serif;
+    font-size: 31px;
+    color: hsl(212, 21%, 14%);
+}
+p{
+    font-size: 14px;
+}
+div{
+    height: 60px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+button{
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(158, 36%, 37%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+button>img{
+    margin-right: 15px;
+}
+button:hover{
+    background-color: hsl(158, 36%, 27%);
+}
+
+/* Classes */
+.hero{
+    background-image: url("../images/image-product-desktop.jpg");
+    width: 50%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px 0 0 15px;
+}
+.diff1{
+    color: hsl(158, 36%, 37%);
+}
+.diff2{
+    text-decoration: line-through;
+}
+
+/* Queries */
+@media screen and (max-width: 376px) {
+    /* tags */
+    main{
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+    }
+    section{
+        height: 30%;
+    }
+
+    /* classes */
+    .hero{
+        background-image: url("../images/image-product-mobile.jpg");
+        width: 100%;
+        border-radius: 0;
+        height: 60vh;
+        background-size: 100% auto;
+    }
+    
+}

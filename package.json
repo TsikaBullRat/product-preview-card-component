@@ -1,0 +1,13 @@
+{
+    "name":"product-preview-card-component",
+    "version": "1.0.0",
+    "description": "Just some frontend mentor practice",
+    "homepage": "https://tsikabullrat.github.io/product-preview-card-component/",
+    "license": "UNLICENSED",
+    "author": {
+        "name": "Ntsikayomzi Phenyo Ngcakani",
+        "email": "tsika1996190514@gmail.com",
+        "url": "https://www.bitbullscriptrat.co.za/"
+    },
+    "main": "engine.js"
+}
